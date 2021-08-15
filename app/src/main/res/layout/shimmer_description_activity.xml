@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="@color/colorGrey" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtProductTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:background="@color/colorGrey"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="1dp"
+        android:paddingHorizontal="300dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="6dp"
+        android:background="@color/colorGrey"
+        android:textSize="14sp"
+        android:paddingHorizontal="50dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorGrey"
+        android:textColor="@color/brown"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingHorizontal="30dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtTitleDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="6dp"
+        android:background="@color/colorGrey"
+        android:textSize="14sp"
+        android:paddingHorizontal="50dp"/>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="?actionBarSize"
+        android:background="@color/colorGrey"
+        android:paddingBottom="200dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        tools:text="@string/this_is_a_sample_product_title" />
+</LinearLayout>

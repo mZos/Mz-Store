@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mz Store</string>
+    <string name="this_is_a_sample_product_title">This is a very very very very long sample product title</string>
+    <string name="_109_95">109.95</string>
+    <string name="secondary_title">Secondary title</string>
+    <string name="home">Home</string>
+    <string name="description">Description</string>
+    <string name="product_image">Product Image</string>
+</resources>
